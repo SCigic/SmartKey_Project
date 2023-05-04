@@ -184,7 +184,7 @@ def run_gui():
     lbl_name = tk.Label(frame_03,
                         text= "Ime i prezime:",
                         font= BODY_TEXT)
-    lbl_name.grid(row=0, column=1, padx=5, pady=5, sticky=tk.W) 
+    lbl_name.grid(row=0, column=1, padx=5, pady=5, sticky=tk.E) 
 
     entry_name_var = tk.StringVar()
     entry_name = tk.Entry(frame_03,
@@ -194,7 +194,7 @@ def run_gui():
     lbl_pin = tk.Label(frame_03,
                         text= "PIN:",
                         font=BODY_TEXT)
-    lbl_pin.grid(row=1, column=1, padx=5, pady=5, sticky=tk.W)   
+    lbl_pin.grid(row=1, column=1, padx=5, pady=5, sticky=tk.E)   
 
     entry_pin1_var = tk.StringVar()
     entry_pin1 = tk.Entry(frame_03,
@@ -204,7 +204,7 @@ def run_gui():
     lbl_active = tk.Label(frame_03,
                         text= "Aktivan:",
                         font=BODY_TEXT)
-    lbl_active.grid(row=2, column=1, padx=5, pady=5, sticky=tk.W)   
+    lbl_active.grid(row=2, column=1, padx=5, pady=5, sticky=tk.E)   
 
     entry_is_active_var = tk.IntVar()
     entry_is_active = tk.Checkbutton(frame_03,
